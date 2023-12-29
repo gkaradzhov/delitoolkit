@@ -6,12 +6,7 @@ delitoolkit
 .. image:: https://img.shields.io/pypi/v/delitoolkit.svg
         :target: https://pypi.python.org/pypi/delitoolkit
 
-.. image:: https://img.shields.io/travis/gkaradzhov/delitoolkit.svg
-        :target: https://travis-ci.com/gkaradzhov/delitoolkit
 
-.. image:: https://readthedocs.org/projects/delitoolkit/badge/?version=latest
-        :target: https://delitoolkit.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
 
 
 
