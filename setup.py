@@ -36,6 +36,7 @@ setup(
     keywords='delitoolkit',
     name='delitoolkit',
     packages=find_packages(include=['delitoolkit', 'delitoolkit.*']),
+    package_data={'': ['models/*']},
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/gkaradzhov/delitoolkit',
