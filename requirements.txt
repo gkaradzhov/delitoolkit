@@ -1,0 +1,4 @@
+sentence-transformers==2.2.2
+torch==2.1.2
+transformers==4.20.1
+numpy==1.24.4
