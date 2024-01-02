@@ -10,4 +10,5 @@ class BoWSimple:
         extended_context = ['BEGIN', *dialogue_context]
         bigrams = [p + "<SEP>" + n for p, n in zip(extended_context[:-1], extended_context[1:])]
         predictions = self.model.predict_proba(bigrams)
-        yield zip(dialogue_context, [p[1] for p in predictions])
+
+        return list(zip(dialogue_context, [p[1] for p in predictions]))
