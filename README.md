@@ -8,7 +8,7 @@ A toolkit for evaluating deliberative discussions and building DEliBots. For mor
 
 This module gives access to classifiers trained to annotate deliberative discussions. The classifier predicts the
 first 2 levels from the DeliAnnotate annotation scheme. Please refer to the original paper for usage,
-annotation description, guidelines, classification architecture and performance: [link](#delidata).
+annotation description, guidelines, classification architecture and performance: [link](#deliannotation-module).
 
 ```
 from delitoolkit import deliannotate
@@ -22,7 +22,7 @@ type, role = deli_predictor.predict("What about A")
 
 This module gives access to classifiers trained to predict which utterances in a collaborative conversation can cause
 someone to change their mind. Please refer to the original paper for usage, classification architecture and
-performance [link](#inflection-point). Currently delitoolkit provides API to an enhanced Bag-of-words model, with slightly better
+performance [link](#inflection-point-module). Currently delitoolkit provides API to an enhanced Bag-of-words model, with slightly better
 performance than the one in the original paper.
 The classifier relies only on linguistic data, without incorporating any other datastreams (and thus is applicable to
 wider-range of tasks). Please provide conversation context of at least 2 utterances for best performance.
@@ -38,7 +38,7 @@ print(predictor.predict_proba(["Hi", "I think 3"]))
 
 ## Relevant papers and BibTeX citations
 
-### Delidata
+### DeliAnnotation module
 **DeliData A dataset for deliberation in multi-party problem solving (https://delibot.xyz/delidata)**
   
     @article{karadzhov2023delidata,
@@ -52,7 +52,7 @@ print(predictor.predict_proba(["Hi", "I think 3"]))
         publisher={ACM New York, NY, USA}
       }
 
-### Inflection point 
+### Inflection point module 
 **What makes you change your mind? An empirical investigation in online group decision-making conversations**
   
       @inproceedings{karadzhov2022makes,
