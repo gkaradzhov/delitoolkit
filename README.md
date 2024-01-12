@@ -35,12 +35,29 @@ predictor = bow.BoWSimple()
 print(predictor.predict_proba(["Hi", "I think 3"]))
 ```
 
+## DeliData
+
+Easy way to access the contents of [DeliData](#deliannotation-module). Contains 500 deliberative discussions of groups
+solving the Wason card selection task. Each utterance is augmented with additional data, such as annotation, solutions,
+and approximation of team performance.
+For full information, please refer to the DeliData paper and DELIDATA_README.md
+
+```
+from delitoolkit.delidata import DeliData
+
+
+delidata_corpus = DeliData()
+groups = list(delidata_corpus.corpus.keys())
+for m in delidata_corpus.corpus[groups[0]]:
+    print(m['message_type'], m['original_text'])
+```
 
 ## Relevant papers and BibTeX citations
 
 ### DeliAnnotation module
+
 **DeliData A dataset for deliberation in multi-party problem solving (https://delibot.xyz/delidata)**
-  
+
     @article{karadzhov2023delidata,
         title={DeliData: A dataset for deliberation in multi-party problem solving},
         author={Karadzhov, Georgi and Stafford, Tom and Vlachos, Andreas},
@@ -52,9 +69,9 @@ print(predictor.predict_proba(["Hi", "I think 3"]))
         publisher={ACM New York, NY, USA}
       }
 
-### Inflection point module 
+### Inflection point module
 **What makes you change your mind? An empirical investigation in online group decision-making conversations**
-  
+
       @inproceedings{karadzhov2022makes,
         title={What makes you change your mind? An empirical investigation in online group decision-making conversations},
         author={Karadzhov, Georgi and Stafford, Tom and Vlachos, Andreas},
