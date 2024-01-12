@@ -1,0 +1,15 @@
+group_id	message_id	message_type	origin	original_text	clean_text	annotation_type	annotation_target	annotation_additional	team_performance	performance_change	sol_tracker_message	sol_tracker_all
+8ee27671-d613-4f96-9c68-31740671c691	-1	INITIAL	SYSTEM	SYSTEM,Hamster,Dolphin&&E,7,T,6					0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	34466de7-d420-4fe4-bfbc-e5f64769c8c6	MESSAGE	Dolphin	hello	hello	None	0	0	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	e59dc77c-8dd3-4838-b50a-78cb7d6546f7	MESSAGE	Hamster	Hi there	Hi there	None	0	0	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	f3acd9d7-721b-4a59-8bab-5b836d90304e	MESSAGE	Dolphin	any suggestions?	any suggestions ?	Probing	Moderation	0	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	fbd8df0d-ec74-491a-96cc-c1bc938e19e9	MESSAGE	Hamster	I chose the first two cards to prove the rule, how about you?	I chose the first two cards to prove the rule , how about you ?	Non-probing-deliberation	Solution	complete_solution	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	26ea4739-50a6-4b42-996d-e5f2784ecd78	MESSAGE	Dolphin	yeah i was thinking that	yeah i was thinking that	Non-probing-deliberation	Agree	0	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	d3fb2764-31c6-4242-8e5e-885f4c8430cc	MESSAGE	Dolphin	sounds right to me	sounds right to me	Non-probing-deliberation	Agree	0	0.625	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E"]}
+8ee27671-d613-4f96-9c68-31740671c691	eb662b1d-a408-416c-a1ad-4ec16fd529f6	SUBMIT	Dolphin	E,6					0.5	-0.125		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	839ec42c-3560-430c-975f-73672f5a9492	MESSAGE	Hamster	great!	great !	None	0	0	0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	c29099a4-3ba1-48ea-b41d-51bd8d5fbcd7	MESSAGE	Hamster	'the task did not seem to difficult. I don''t know what else to comment on.'	'the task did not seem to difficult . I don''t know what else to comment on .'	Non-probing-deliberation	Reasoning	0	0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	a7cbafa0-cadb-4098-bea2-2b62f8af355b	MESSAGE	Dolphin	yeah i was kind of confused at first	yeah i was kind of confused at first	Non-probing-deliberation	Agree	0	0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	3febc55c-1b7d-4a65-8f21-a8e428734c04	MESSAGE	Hamster	I was too.	I was too .	Non-probing-deliberation	Agree	0	0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	d28db2d2-fd43-486e-a533-c0a912e34041	SUBMIT	Hamster	E,6					0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}
+8ee27671-d613-4f96-9c68-31740671c691	5139a1ea-b5ad-4753-886c-c96b054d4455	SUBMIT	Dolphin	E,6					0.5	0.0		{"Hamster": ["E", "6"], "Dolphin": ["E", "6"]}

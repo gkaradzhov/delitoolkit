@@ -1,0 +1,14 @@
+group_id	message_id	message_type	origin	original_text	clean_text	annotation_type	annotation_target	annotation_additional	team_performance	performance_change	sol_tracker_message	sol_tracker_all
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	-1	INITIAL	SYSTEM	Lobster,SYSTEM,Puffin&&Q,U,9,6					0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	d5a9e49e-e388-4fd2-9e68-622e96a5403f	MESSAGE	Lobster	hii	hii	None	0	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	9d406fa2-c070-4c8d-85ad-7a98ab18d90e	MESSAGE	Puffin	Hi	Hi	None	0	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	a7472b27-a4b4-43ef-b86d-3f9819d8ce0d	MESSAGE	Lobster	What is your choice	What is your choice	Probing	Moderation	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	9c284533-70fe-4957-9ec0-e9b016922a9d	MESSAGE	Puffin	I think we only need to flip the 6 because it would make it false.	I think we only need to flip the <CARD> because it would make it false .	Non-probing-deliberation	Reasoning	complete_solution	0.5	0.0	6	{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	8ed24802-de26-4b42-93c9-c95fb0d4c405	MESSAGE	Puffin	What do you think	What do you think	Probing	Moderation	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	dc02c104-089c-45da-a3e4-e4951bc488eb	MESSAGE	Lobster	No I think U	No I think <CARD>	Non-probing-deliberation	Solution	complete_solution	0.5	0.0	U	{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	ccff3382-47a6-4e6e-92f1-5f2a2c715fa5	MESSAGE	Puffin	But then we wouldnt have vowels to test the rule	But then we wouldnt have vowels to test the rule	Non-probing-deliberation	Reasoning	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	9b4a6df6-0de4-4cba-a66f-b8b5347011b9	MESSAGE	Lobster	Ya	Ya	Non-probing-deliberation	Agree	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	666d4cd0-d118-4ef5-846f-bc3f7452313c	SUBMIT	Puffin	6					0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	ceca7f57-6eb1-4a18-a0e3-dadecc941446	MESSAGE	Lobster	What do you think?	What do you think ?	Probing	Moderation	0	0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	6cb69ce2-c18e-402f-9daf-db82c5e1e695	MESSAGE	Lobster	My choice is U Please choice it	My choice is <CARD> Please choice it	Non-probing-deliberation	Solution	complete_solution	0.5	0.0	U	{"Lobster": ["U"], "Puffin": ["6"]}
+6f527c6e-432f-418d-a0d6-cbabcdff4cc9	1b92bc79-a0d7-404a-847b-8399778471e0	SUBMIT	Lobster	U					0.5	0.0		{"Lobster": ["U"], "Puffin": ["6"]}

@@ -1,0 +1,19 @@
+group_id	message_id	message_type	origin	original_text	clean_text	annotation_type	annotation_target	annotation_additional	team_performance	performance_change	sol_tracker_message	sol_tracker_all
+88f00b61-4d34-42c3-807a-18c754168762	-1	INITIAL	SYSTEM	Panda,SYSTEM,Leopard&&E,G,7,6					0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	a3f2ee33-de72-4289-8b99-b6122e6ae655	MESSAGE	Leopard	Have you tried the same answer	Have you tried the same answer	Probing	Moderation	0	0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	2762b337-482b-4157-8d3d-56a4d543e205	MESSAGE	Leopard	Are you aware of the correct answer	Are you aware of the correct answer	Probing	Moderation	0	0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	62f1cf98-a816-42ff-972a-c8be1f3b9135	SUBMIT	Panda	E					0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	aac0c8ac-652e-420a-8b41-d59195c726e8	MESSAGE	Panda	yes I am very interesting the task	yes I am very interesting the task	Non-probing-deliberation	Reasoning	0	0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	0d4177a9-3b9a-4962-982f-d9b5cf4ee318	MESSAGE	Leopard	Okay. Which one is right	Okay . Which one is right	Probing	Solution	0	0.75	0.0		{"Leopard": ["E"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	d8cf5372-1e23-4dc6-9f02-a42c2d1be569	MESSAGE	Panda	6 number is correct	<CARD> number is correct	Non-probing-deliberation	Solution	complete_solution	0.5	-0.25	6	{"Leopard": ["E"], "Panda": ["6"]}
+88f00b61-4d34-42c3-807a-18c754168762	50fe9e1d-b7c3-4803-afb0-985c35d3ed63	SUBMIT	Leopard	E,6					0.375	-0.125		{"Leopard": ["E", "6"], "Panda": ["6"]}
+88f00b61-4d34-42c3-807a-18c754168762	34d3d865-90c8-48ae-ad8d-68019fc52073	MESSAGE	Leopard	Did you read carefully. Vowels also the follow the same rules right	Did you read carefully . Vowels also the follow the same rules right	Non-probing-deliberation	Reasoning	0	0.375	0.0		{"Leopard": ["E", "6"], "Panda": ["6"]}
+88f00b61-4d34-42c3-807a-18c754168762	6a6c6be5-ba95-44ce-92b0-bc8fa200adae	MESSAGE	Panda	ok e is my answer	ok <CARD> is my answer	Non-probing-deliberation	Solution	complete_solution	0.625	0.25	E	{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	1816d121-dad8-42ff-9c1e-9f2c2a34090f	MESSAGE	Leopard	okay. there are two answers I think	okay . there are two answers I think	Non-probing-deliberation	Reasoning	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	bcd2f114-3331-4d79-bd24-06dc6c816e72	MESSAGE	Panda	my answer is correct	my answer is correct	Non-probing-deliberation	Reasoning	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	9a959651-164a-440f-b17c-c581f8d9fc6f	MESSAGE	Leopard	Okay	Okay	Non-probing-deliberation	Agree	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	5360de41-8eeb-434a-b0b0-19ead3f589b2	SUBMIT	Leopard	E,6					0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	a1505939-74e5-4bfe-b6f3-d69ae79fc7b8	MESSAGE	Panda	thank you	thank you	None	0	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	20438456-86f6-483f-88f2-e3918d609425	MESSAGE	Panda	any other question the task.	any other question the task .	None	0	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	61dbc3e6-6b90-4d46-8ab4-5f3b134a3705	MESSAGE	Panda	Tell me again	Tell me again	None	0	0	0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}
+88f00b61-4d34-42c3-807a-18c754168762	c07284f4-6583-4cbb-ab1f-555a19d66444	SUBMIT	Panda	E					0.625	0.0		{"Leopard": ["E", "6"], "Panda": ["E"]}

@@ -1,0 +1,22 @@
+group_id	message_id	message_type	origin	original_text	clean_text	annotation_type	annotation_target	annotation_additional	team_performance	performance_change	sol_tracker_message	sol_tracker_all
+a3274a5a-837e-4f04-8821-ad5db9d29031	-1	INITIAL	SYSTEM	SYSTEM,Bee,Giraffe&&B,U,7,4					0.5	0.0		{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	32169ba9-3fcb-4b04-8e5a-f69601415766	MESSAGE	Bee	so Giraffe which of the latter or number are uchososing	so <MENTION> which of the latter or number are uchososing	Probing	Moderation	specific_addressee	0.5	0.0		{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	7f1bb853-b39d-4ed4-bf7e-13b1448b7d23	MESSAGE	Giraffe	i chose card U	i chose card <CARD>	Non-probing-deliberation	Solution	complete_solution	0.5	0.0	U	{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	7e3637ab-717e-4378-868e-e85fa8912129	MESSAGE	Bee	ohh	ohh	None	0	0	0.5	0.0		{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	bb5eac25-f466-4c7a-b8f3-caa11a8edb82	MESSAGE	Bee	i  did choose 4	i did choose <CARD>	Non-probing-deliberation	Solution	complete_solution	0.5	0.0	4	{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	d793e199-fa49-49b4-9944-17540ae4bbfa	MESSAGE	Bee	how do you see it	how do you see it	Probing	Reasoning	0	0.5	0.0		{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	8624c996-5c5a-4d17-ad35-a9ff763bdcf1	MESSAGE	Giraffe	i have no idea	i have no idea	None	0	0	0.5	0.0		{"Bee": ["4"], "Giraffe": ["U"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	c56d6f36-1cb1-4437-8537-042e60db010f	MESSAGE	Giraffe	card 4 will have a vowel	card <CARD> will have a vowel	Non-probing-deliberation	Reasoning	0	0.25	-0.25	4	{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	f5a12fad-cfe0-476b-a07a-d8a9641ca921	MESSAGE	Giraffe	so we should chose card 4?	so we should chose card <CARD> ?	Non-probing-deliberation	Reasoning	complete_solution	0.25	0.0	4	{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	9706969a-fdd8-4c11-9c1d-c4d5bc87e032	MESSAGE	Bee	ok we should go with 4	ok we should go with <CARD>	Non-probing-deliberation	Solution	complete_solution	0.25	0.0	4	{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	64148bbb-cc17-42ef-8c0a-5b00d0f7ada9	MESSAGE	Giraffe	ok!	ok !	Non-probing-deliberation	Agree	0	0.25	0.0		{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	368a1e02-027c-401b-9461-6933e66433fa	SUBMIT	Giraffe	4					0.25	0.0		{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	4d99141c-5816-4e70-8669-9e4ddfbdb78c	MESSAGE	Bee	but there must have been something that made you choose u	but there must have been something that made you choose <CARD>	Probing	Reasoning	0	0.5	0.25	U	{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	9b19d55b-b87c-45e1-8032-2824127a8915	MESSAGE	Giraffe	that an even number would be behind it	that an even number would be behind it	Non-probing-deliberation	Reasoning	0	0.5	0.0		{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	9d309cc7-3011-4888-b88c-1fa260eb3eaa	MESSAGE	Bee	somewhat compatible i guess	somewhat compatible i guess	None	0	0	0.5	0.0		{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	0ede65ea-d1d1-41e7-88fc-4dd0ed0fc048	MESSAGE	Giraffe	yeah	yeah	None	0	0	0.5	0.0		{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	e3cede0e-6d26-448f-8248-c7315ae349e8	MESSAGE	Giraffe	well i am chosing 4 and submitting	well i am chosing <CARD> and submitting	Non-probing-deliberation	Solution	complete_solution	0.5	0.0	4	{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	ffcc9326-c064-43aa-89a5-e88405c0a058	MESSAGE	Bee	ok i so agree with you then	ok i so agree with you then	Non-probing-deliberation	Agree	0	0.5	0.0		{"Bee": ["U"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	fd6b2fb6-5928-44ab-9e3b-02b8a21c96d0	MESSAGE	Bee	so i agree with you and we are choosing 4	so i agree with you and we are choosing <CARD>	Non-probing-deliberation	Solution	solution_summary	0.25	-0.25	4	{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	7cf575c2-c67f-44f7-9193-ebfa29b2ef7b	MESSAGE	Bee	right?	right ?	None	0	0	0.25	0.0		{"Bee": ["4"], "Giraffe": ["4"]}
+a3274a5a-837e-4f04-8821-ad5db9d29031	7f94293a-05e9-4ed2-aabf-4e5e2c393c08	SUBMIT	Bee	4					0.25	0.0		{"Bee": ["4"], "Giraffe": ["4"]}

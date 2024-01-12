@@ -1,0 +1,21 @@
+group_id	message_id	message_type	origin	original_text	clean_text	annotation_type	annotation_target	annotation_additional	team_performance	performance_change	sol_tracker_message	sol_tracker_all
+7df21e35-5524-411c-9f93-2a9b4d1c1910	-1	INITIAL	SYSTEM	Lion,SYSTEM,Kiwi&&5,U,J,6					0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	53d8eb4a-5d92-4567-9061-dafec436ec77	SUBMIT	Kiwi	U,6					0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	c5a1a390-e958-4b77-817d-80c591ee2be9	MESSAGE	Kiwi	Anyone there	Anyone there	None	0	0	0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	5142eabc-4c4c-4f56-95c0-682e3d315d88	MESSAGE	Kiwi	Hello	Hello	None	0	0	0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	70eec550-c260-40ac-b0dd-abce0be45f78	MESSAGE	Lion	'At first, I just picked U, but I wasn''t sure if that was enough to verify the rule.'	'At first , I just picked <CARD> , but I wasn''t sure if that was enough to verify the rule .'	Non-probing-deliberation	Reasoning	partial_solution	0.625	0.125	U	{"Kiwi": ["U", "6"], "Lion": ["U"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	2953ef88-e861-49e4-b352-e5dd397ceded	MESSAGE	Kiwi	Need to pick 6 as well	Need to pick <CARD> as well	Non-probing-deliberation	Solution	partial_solution	0.5	-0.125	6	{"Kiwi": ["6"], "Lion": ["U"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	cfc23b0a-0652-4e48-ae52-217435573887	MESSAGE	Lion	'That''s what I thought'	'That''s what I thought'	Non-probing-deliberation	Agree	0	0.5	0.0		{"Kiwi": ["6"], "Lion": ["U"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	b16852a6-ce8a-4141-95cf-6361f0f9d798	MESSAGE	Lion	I have revised the solution with U and 6.	I have revised the solution with <CARD> and <CARD> .	Non-probing-deliberation	Solution	complete_solution	0.375	-0.125	U,6	{"Kiwi": ["6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	8d491e1c-658c-4e65-bca5-46ad07778dcc	MESSAGE	Lion	Did you think we need to pick any other cards?	Did you think we need to pick any other cards ?	Probing	Solution	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	45729ab7-da2a-44f4-9112-dce4bebfa066	MESSAGE	Kiwi	Oh	Oh	None	0	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	f39e6104-c6f4-4076-9c4a-d34a9b266bb4	MESSAGE	Kiwi	No	No	Non-probing-deliberation	Disagree	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["U", "6"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	a382c3a6-86ba-4c10-a076-4ead73ea6836	MESSAGE	Lion	'I can see why the J wouldn''t prove anything, but what about the 5?'	'I can see why the <CARD> wouldn''t prove anything , but what about the <CARD> ?'	Probing	Solution	0	0.375	0.0	5,J	{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	26290653-42f3-41ff-8de8-e9013f6cd369	MESSAGE	Lion	What if there were a vowel on the back?	What if there were a vowel on the back ?	Probing	Reasoning	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	f1bb3d08-0d64-42c0-9665-b3313e61c9d3	MESSAGE	Kiwi	Its not even	Its not even	Non-probing-deliberation	Reasoning	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	f936c73a-3f17-4265-a6b4-86da462b8b66	MESSAGE	Lion	Right	Right	Non-probing-deliberation	Agree	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	1d30c5b3-b358-4985-9868-1addfc10d87f	MESSAGE	Lion	Let me know when you want to submit it.	Let me know when you want to submit it .	None	0	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	c4d4f318-133b-4d80-b052-a5c2ad71e74d	MESSAGE	Kiwi	I am going to submit now, I think it hasbeen long enough	I am going to submit now , I think it hasbeen long enough	None	0	0	0.375	0.0		{"Kiwi": ["6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	697d157e-a00d-467d-94bc-3e5a0e5457b7	SUBMIT	Kiwi	U,6					0.5	0.125		{"Kiwi": ["U", "6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	171264f1-4f07-4db9-a83c-da7f6bf99ac9	MESSAGE	Lion	Okay	Okay	None	0	0	0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["5", "J"]}
+7df21e35-5524-411c-9f93-2a9b4d1c1910	8e7aded9-e217-4f91-b37e-7f5fa1cc4a0e	SUBMIT	Lion	U,6					0.5	0.0		{"Kiwi": ["U", "6"], "Lion": ["U", "6"]}
