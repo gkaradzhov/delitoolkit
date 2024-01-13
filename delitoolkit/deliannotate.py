@@ -20,9 +20,9 @@ class ProbingTargetPredictor(torch.nn.Module):
 
 
 class DeliAnnotationPredictor:
-    def __init__(self, type_path='models/predicting_type.zip',
-                 probing_target_path='models/predicting_probing_target_delidata20rc.zip',
-                 nonprobing_target_path='models/predicting_nonprobing_target_delidata20rc.zip') -> None:
+    def __init__(self, type_path='delitoolkit/delitoolkit/models/predicting_type.zip',
+                 probing_target_path='delitoolkit/delitoolkit/models/predicting_probing_target_delidata20rc.zip',
+                 nonprobing_target_path='delitoolkit/delitoolkit/models/predicting_nonprobing_target_delidata20rc.zip') -> None:
         self.embedder = SbertPredictor('gtr-t5-xl')
 
         device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")

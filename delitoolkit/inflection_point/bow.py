@@ -3,7 +3,7 @@ import pickle
 
 class BoWSimple:
     def __init__(self):
-        with open('models/bow_full_delidata.model', 'rb') as f:
+        with open('delitoolkit/delitoolkit/models/bow_full_delidata.model', 'rb') as f:
             self.model = pickle.load(f)
 
     def predict_proba(self, dialogue_context):
