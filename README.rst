@@ -12,6 +12,7 @@ Install
 Please install the latest version from PyPi, preferably in a virtual environment of choice.
 
 ::
+
     pip install delitoolkit
 
 Usage
