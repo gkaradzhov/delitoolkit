@@ -1,6 +1,7 @@
-import torch
-import numpy as np
+import os
 
+import numpy as np
+import torch
 from delitoolkit.encoding_utils import SbertPredictor
 
 
@@ -20,10 +21,11 @@ class ProbingTargetPredictor(torch.nn.Module):
 
 
 class DeliAnnotationPredictor:
-    def __init__(self, type_path='delitoolkit/delitoolkit/models/predicting_type.zip',
-                 probing_target_path='delitoolkit/delitoolkit/models/predicting_probing_target_delidata20rc.zip',
-                 nonprobing_target_path='delitoolkit/delitoolkit/models/predicting_nonprobing_target_delidata20rc.zip') -> None:
+    def __init__(self, type_path='/models/predicting_type.zip',
+                 probing_target_path='/models/predicting_probing_target_delidata20rc.zip',
+                 nonprobing_target_path='/models/predicting_nonprobing_target_delidata20rc.zip') -> None:
         self.embedder = SbertPredictor('gtr-t5-xl')
+        dir_path = os.path.dirname(os.path.realpath(__file__))
 
         device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
@@ -31,9 +33,9 @@ class DeliAnnotationPredictor:
         self.probing_target_model = ProbingTargetPredictor(num_of_classes=3)
         self.nonprobing_target_model = ProbingTargetPredictor(num_of_classes=4)
 
-        self.type_model.load_state_dict(torch.load(type_path, map_location=device))
-        self.probing_target_model.load_state_dict(torch.load(probing_target_path, map_location=device))
-        self.nonprobing_target_model.load_state_dict(torch.load(nonprobing_target_path, map_location=device))
+        self.type_model.load_state_dict(torch.load(dir_path + type_path, map_location=device))
+        self.probing_target_model.load_state_dict(torch.load(dir_path + probing_target_path, map_location=device))
+        self.nonprobing_target_model.load_state_dict(torch.load(dir_path + nonprobing_target_path, map_location=device))
         self.type_model.eval()
         self.probing_target_model.eval()
         self.nonprobing_target_model.eval()

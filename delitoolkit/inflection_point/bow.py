@@ -1,9 +1,12 @@
+import os
 import pickle
 
 
 class BoWSimple:
     def __init__(self):
-        with open('delitoolkit/delitoolkit/models/bow_full_delidata.model', 'rb') as f:
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+
+        with open(dir_path + '/../models/bow_full_delidata.model', 'rb') as f:
             self.model = pickle.load(f)
 
     def predict_proba(self, dialogue_context):

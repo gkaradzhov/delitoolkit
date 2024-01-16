@@ -10,7 +10,7 @@ include *.md requirements.txt
 
 recursive-include tests *
 recursive-include delitoolkit/models *
-recursive-include delitoolkit/delidata *
+recursive-include delitoolkit/delidata_corpus *
 
 
 recursive-exclude * __pycache__

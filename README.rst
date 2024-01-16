@@ -7,7 +7,7 @@ For more details see https://delibot.xyz
 
 
 Install
------
+-------
 
 Please install the latest version from PyPi, preferably in a virtual environment of choice.
 
